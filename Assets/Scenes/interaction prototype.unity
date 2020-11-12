@@ -376,7 +376,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 144463376}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &637993478
+--- !u!114 &637993482
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -406,8 +406,8 @@ MonoBehaviour:
   accelerationSmoothing: 0.15
   useVelocity: 1
   velocityStrength: 1
-  velocityMin: 0
-  velocityMax: 0
+  velocityMin: 0.1
+  velocityMax: 5
   velocitySmoothing: 0.15
   motionEffectTarget: {fileID: 0}
   useCounterMotion: 0

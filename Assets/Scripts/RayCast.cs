@@ -14,7 +14,7 @@ public class RayCast : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 1f)) 
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 1f,LayerMask.GetMask("scanner"))) 
         {
 
             Debug.Log("hit");

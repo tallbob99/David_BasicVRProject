@@ -18,8 +18,10 @@ public class SpinScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //checks if trigger is being pulled
         if (spinAction.axis > 0)
         {
+           //rotates object relative to pressure aplied to trigger
             transform.Rotate(0, spinAction.axis * rotateSpeed, 0, Space.Self);
         }
         

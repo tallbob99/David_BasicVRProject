@@ -20,6 +20,7 @@ public class MovePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //stops code from running if to close to object
         RaycastHit hit; 
         if (head.SweepTest(Player.instance.hmdTransform.TransformDirection(Vector3.forward),out hit, distance))
         {

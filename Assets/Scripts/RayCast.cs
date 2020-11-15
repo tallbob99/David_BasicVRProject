@@ -14,9 +14,10 @@ public class RayCast : MonoBehaviour
     {
         RaycastHit hit;
 
+        //checks if hdmi is looking at object on scanner layer
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 1f,LayerMask.GetMask("scanner"))) 
         {
-
+            //outputs message to console
             Debug.Log("hit");
         }
 

@@ -1,0 +1,17 @@
+﻿I chose to implement smooth locomotion as my movement prototype because i believe that smooth locomotion is very similar to movement in traditional first person games and can help decrease the barrier of learning required to start using VR
+
+
+The interaction prototypes I implement where raycasting (a message is output to the console if you look at the pillar in the center)and having an object spin when the trigger was pulled
+
+
+I chose to do raycasting because of the many places where such interaction could be used, such as selecting options in menus or simulating a retinal scan, it's a handy thing to know how to program
+
+
+I made the decision to have one of my interactions be an object spinning when pulling the trigger because it is similar to something I want to do in my final project. In the final project there will be a combination lock that needs to have the number parts rotate. With a few tweeks i could use code similar to the one i made for this to achieve this purpose
+
+
+The rotating object is enabled through steam VR and uses a custom mapping for controller input 
+ rotating object mimics a real world interaction of turning a screwdriver by hand
+
+
+The raycasting is an abstract interaction because it isn't something that you can see physically happening and isn't something that has a real world equivalent
